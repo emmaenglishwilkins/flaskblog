@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: red;
+  /* background-image: url('../../public/media/ladybug-bg.jpg');
+  background-size: cover; 
+  background-position: center; */
+}
+
+.polka-dot {
+  position: absolute;
+  border-radius: 50%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  z-index: 2;
+}
+
+.polka-dot:hover {
+  transform: scale(1.1);
+}
+
+.dot-text {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  text-align: center;
+  font-size: 14px;
+}
+
+.polka-dot:hover .dot-text {
+  opacity: 1;
+}
+
+/* Background dots (non-interactive) */
+.bg-dot {
+  position: absolute;
+  border-radius: 50%;
+  background-color: black;
+  z-index: 1;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
