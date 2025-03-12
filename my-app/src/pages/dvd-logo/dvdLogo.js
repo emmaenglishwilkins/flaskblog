@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import 'dvd-logo-styles.css'; // Import the CSS file
+import './dvd-logo-styles.css'; // Import the CSS file
 
 console.log("dvdLogo.js Loaded"); // Debugging
 
