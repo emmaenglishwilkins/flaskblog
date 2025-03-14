@@ -4,15 +4,18 @@ import './App.css';
 import { Home } from './pages/home'
 import { Blog } from './pages/blog';
 import { Layout } from './layout';
+// import { DvdLogo } from './pages/dvd-logo/dvdLogo';
+
+// import { DraggablePhotos } from './components/draggable-photos';
+// import { PoetryPages } from './pages/poetry-pages';
 
 function App() {
   return(
     <Router>
       <Routes>
-        <Route element={<Layout/>}>
           <Route path="/" element={<Home/>}/>
           <Route path="/blog" element = {<Blog/>}/>
-        </Route>
+          {/* <Route path="/dvd" element = { DvdLogo }/> */}
       </Routes>
     </Router>
   )
