@@ -36,5 +36,4 @@ function createBackgroundDots() {
   console.log("Created", fixedDots.length, "dots");
 }
 
-// Export the function
 export { createBackgroundDots };

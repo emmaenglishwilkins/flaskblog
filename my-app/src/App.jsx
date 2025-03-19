@@ -3,7 +3,10 @@ import { BrowserRouter, HashRouter as Router, Routes, Route } from 'react-router
 import './App.css';
 import { Home } from './pages/home'
 import { Blog } from './pages/blog';
-import { Layout } from './layout';
+// import { DvdLogo } from './pages/dvd-logo/dvdLogo';
+import { Poetry } from './pages/poetry'
+
+// import { Layout } from './layout';
 // import { DvdLogo } from './pages/dvd-logo/dvdLogo';
 
 // import { DraggablePhotos } from './components/draggable-photos';
@@ -16,6 +19,7 @@ function App() {
           <Route path="/" element={<Home/>}/>
           <Route path="/blog" element = {<Blog/>}/>
           {/* <Route path="/dvd" element = { DvdLogo }/> */}
+          <Route path="/poetry" element = { Poetry }/>
       </Routes>
     </Router>
   )

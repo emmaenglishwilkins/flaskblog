@@ -66,6 +66,7 @@ function DvdLogo() {
   // Using className instead of inline styles to leverage the CSS file
   return (
     <div className="dvd-container">
+      {/* <link rel="stylesheet" href="dvd-logo-style.css"></link> */}
       <div
         id="dvd-logo"
         ref={logoRef}
