@@ -25,7 +25,8 @@ export function Home() {
         { path: "/poetry-pages/p3", text: "the truth", size: 90, x: -150, y: 400 }, // 4 
         { path: "/draggable-photos", text: "Draggable Photos", size: 100, x: -100, y: 200 }, // 5
         { path: "/poetry-pages/p1", text: "Jo Anne", size: 80, x: 450, y: 250 }, // 6
-        { path: "/poetry", text: "Poetry", size: 100, x: 500, y: 100 } // 7
+        { path: "/poetry", text: "Poetry", size: 100, x: 500, y: 100 }, // 7
+        { path: "/room", text: "Room", size: 100, x: 500, y: 100 } // 8
     ];
 
     return (
